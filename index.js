@@ -21,7 +21,6 @@ async function runQuery() {
 
 runQuery();
 
-
 // function to write README file
 // function writeToFile(fileName, questions) {
 //     return inquirer.prompt(data)
