@@ -12,6 +12,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'about',
+        message: 'Please enter a what your project is about'
+    },
+    {
+        type: 'input',
         name: 'installation',
         message: 'What are the installation instructions for your project?'
     },
@@ -53,8 +58,23 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'questions',
-        message: 'What do you do if there an issue?'
+        name: 'author',
+        message: 'Who is the author of this project?'
+    },
+    {
+        type: 'input',
+        name: 'author',
+        message: 'Who is the author of this project?'
+    },
+    {
+        type: 'input',
+        name: 'url',
+        message: 'What is the URL of the deployed project?'
+    },
+    {
+        type: 'input',
+        name: 'repo',
+        message: 'What is the URL of this GitHub repo?'
     }
 ];
 

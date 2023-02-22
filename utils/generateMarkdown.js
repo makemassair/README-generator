@@ -2,18 +2,23 @@
 function generateMarkdown(answers) {
   return `
 # ${answers.title}
-
-## Table of Contents
-- [Project Description](#Description)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [License](#License)
-- [Contributing](#Contributing)
-- [Tests](#Tests)
-- [Questions](#Questions)
+${answers.licenseBadge}
 
 ## Description
 ${answers.description}
+
+## Contents
+- [About](#about)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Contact Information](#contact%20information)
+
+## About
+${answers.about}
 
 ## Installation
 ${answers.installation}
@@ -22,7 +27,8 @@ ${answers.installation}
 ${answers.usage}
 
 ## License
-${answers.license}
+License used for this project - ${answers.license}
+* For more information on license types, please refer to the following website: [choosealicense.com](https://choosealicense.com/).
 
 ## Contributing
 ${answers.contributing}
@@ -31,7 +37,13 @@ ${answers.contributing}
 ${answers.tests}
 
 ## Questions
-${answers.questions}
+
+If you've any questions about this project, please contact ${answers.author}.
+
+## Contact Information
+
+GitHub username
+
 `;
 }
 

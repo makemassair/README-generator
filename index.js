@@ -12,7 +12,7 @@ async function runQuery() {
     return inquirer.prompt(questions)
     .then((answers) => {
         const generateContent = generateMarkdown(answers);
-        answers.licenseBadge = licenseBadge(answers.license);
+         answers.licenseBadge = licenseBadge(answers.license);
         fs.writeFile('./output/README.md', generateContent, (err) => {
             if(err) {
                 console.log(`Sorry, I could not save the file`);
