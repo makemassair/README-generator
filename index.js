@@ -11,8 +11,9 @@ const { log } = require("console");
 async function runQuery() {
     return inquirer.prompt(questions)
     .then((answers) => {
+        answers.licenseBadge = licenseBadge(answers.license);
         const generateContent = generateMarkdown(answers);
-         answers.license = licenseBadge(answers.license);
+        console.log(answers.licenseBadge);
         fs.writeFile('./output/README.md', generateContent, (err) => {
             if(err) {
                 console.log(`Sorry, I could not save the file`);
