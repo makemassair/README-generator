@@ -24,7 +24,7 @@ Using JavaScript, Node.js, and my knowledge of the Front End Web Dev bootcamp to
 n/a
 
 ## Usage
-Watch this YouTube video for a demo of this project in action.
+Watch this [video](http://www.youtube.com/watch?v=t5MM-ZAI6Wo) for a demo of this project in action.
 
 [![Usage](./screenshot.JPG)](http://www.youtube.com/watch?v=t5MM-ZAI6Wo "Usage")
 
