@@ -1,6 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
-  console.log(answers.licenseBadge);
+  // console.log(answers.licenseBadge);
   return `
 # ${answers.title}
 
@@ -50,6 +50,6 @@ GitHub username: [${answers.userName}](https://github.com/${answers.userName})<b
 GitHub email: <${answers.userEmail}>
 
 `;
-}
+};
 
 module.exports = generateMarkdown;
