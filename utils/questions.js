@@ -8,12 +8,12 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Please enter a brief description of your project'
+        message: 'Enter a brief description of your project'
     },
     {
         type: 'input',
         name: 'about',
-        message: 'Please enter a what your project is about'
+        message: 'Enter what your project is about'
     },
     {
         type: 'input',
@@ -42,9 +42,6 @@ const questions = [
             'Mozilla Public License 2.0',
             'The Unlicense'
         ]
-        // filter(val) {
-        //      return val.toLowerCase(); 
-        // }
     },
     {
         type: 'input',
@@ -54,7 +51,7 @@ const questions = [
     {
         type: 'input',
         name: 'tests',
-        message: 'Is a test included?'
+        message: 'Is a test included? If so, please outline it'
     },
     {
         type: 'input',
@@ -63,18 +60,18 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'author',
-        message: 'Who is the author of this project?'
+        name: 'userName',
+        message: 'What is your GitHub username?'
     },
     {
         type: 'input',
-        name: 'url',
+        name: 'userEmail',
+        message: 'What is your email?'
+    },
+    {
+        type: 'input',
+        name: 'URL',
         message: 'What is the URL of the deployed project?'
-    },
-    {
-        type: 'input',
-        name: 'repo',
-        message: 'What is the URL of this GitHub repo?'
     }
 ];
 

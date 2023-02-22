@@ -1,8 +1,12 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
+  console.log(answers.licenseBadge);
   return `
 # ${answers.title}
+
 ${answers.licenseBadge}
+
+A deployed version of this project [can be viewed here.](${answers.URL})
 
 ## Description
 ${answers.description}
@@ -40,9 +44,10 @@ ${answers.tests}
 
 If you've any questions about this project, please contact ${answers.author}.
 
-## Contact Information
+### Contact Information
 
-GitHub username
+GitHub username: [${answers.userName}](https://github.com/${answers.userName})<br>
+GitHub email: <${answers.userEmail}>
 
 `;
 }
