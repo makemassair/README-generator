@@ -1,11 +1,12 @@
-# README Generator
+
+# README demo video
 
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg?style=for-the-badge&logo=appveyor)](http://unlicense.org/)
 
-A deployed version of this project [can be viewed here.](https://makemassair.github.io/readme-generator-nodejs)
+A deployed version of this project [can be viewed here.](https://makemassair.github.io/readme-generator-nodejs/)
 
 ## Description
-A markdown generator, used to easily generate README files to use with projects on GitHub, saving time in not having to worry about the markdown.
+This is a demo recording of the working code of the week 11 challenge.
 
 ## Contents
 - [About](#about)
@@ -15,18 +16,15 @@ A markdown generator, used to easily generate README files to use with projects 
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
-- [Contact Information](#contact%20information)
 
 ## About
-Using JavaScript, Node.js, and my knowledge of the Front End Web Dev bootcamp to date I've written a simple README generator that produces a .md file complete with markdown.
+It's a markdown generation app that is for README files.
 
 ## Installation
 n/a
 
 ## Usage
-Watch this YouTube video for a demo of this project in action.
-
-[![Usage](./screenshot.JPG)](http://www.youtube.com/watch?v=t5MM-ZAI6Wo "Usage")
+To save time on generating Markdown for use on GitHub readme's and projects.
 
 ## License
 License used for this project - The Unlicense

@@ -19,7 +19,6 @@ ${answers.description}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
-- [Contact Information](#contact%20information)
 
 ## About
 ${answers.about}
