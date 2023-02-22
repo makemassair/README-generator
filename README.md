@@ -15,7 +15,6 @@ A markdown generator, used to easily generate README files to use with projects 
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
-- [Contact Information](#contact%20information)
 
 ## About
 Using JavaScript, Node.js, and my knowledge of the Front End Web Dev bootcamp to date I've written a simple README generator that produces a .md file complete with markdown.
