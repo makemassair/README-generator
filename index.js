@@ -4,6 +4,7 @@ const fs = require("fs");
 const path = require('path');
 const generateMarkdown = require("./utils/generateMarkdown");
 const questions = require("./utils/questions").questions;
+const licenseBadge = require("./utils/badges").licenseBadge;
 const { log } = require("console");
 
 // run question function
@@ -11,6 +12,7 @@ async function runQuery() {
     return inquirer.prompt(questions)
     .then((answers) => {
         const generateContent = generateMarkdown(answers);
+        answers.licenseBadge = licenseBadge(answers.license);
         fs.writeFile('./output/README.md', generateContent, (err) => {
             if(err) {
                 console.log(`Sorry, I could not save the file`);
