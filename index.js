@@ -14,7 +14,7 @@ async function runQuery() {
         answers.licenseBadge = licenseBadge(answers.license);
         const generateContent = generateMarkdown(answers);
         console.log(answers.licenseBadge);
-        fs.writeFile('./output/README.md', generateContent, (err) => {
+        fs.writeFile('./output/created-README.md', generateContent, (err) => {
             if(err) {
                 console.log(`Sorry, I could not save the file`);
             } else {
