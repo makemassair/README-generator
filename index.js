@@ -10,7 +10,15 @@ const { log } = require("console");
 async function runQuery() {
     return inquirer.prompt(questions)
     .then((answers) => {
-        console.log(answers);
+        const generateContent = generateMarkdown(answers);
+        fs.writeFile('./output/README.md', generateContent, (err) => {
+            if(err) {
+                console.log(`Sorry, I could not save the file`);
+            } else {
+                console.log(`Success! Your README.md has been created and is in the folder named "output"`);
+            }
+        })
+        console.log(generateContent);
         return answers
     })
     .catch((error) => {
@@ -20,6 +28,11 @@ async function runQuery() {
 }
 
 runQuery();
+
+// function createReadme() {
+
+
+// }
 
 // function to write README file
 // function writeToFile(fileName, questions) {
