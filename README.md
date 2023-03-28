@@ -2,7 +2,7 @@
 
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg?style=for-the-badge&logo=appveyor)](http://unlicense.org/)
 
-A deployed version of this project [can be viewed here.](https://makemassair.github.io/readme-generator-nodejs)
+A deployed version of this project [can be viewed here.](https://github.com/makemassair/README-generator)
 
 ## Description
 A markdown generator, used to easily generate README files to use with projects on GitHub, saving time in not having to worry about the markdown.
